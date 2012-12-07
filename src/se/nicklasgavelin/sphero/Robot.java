@@ -7,6 +7,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import se.nicklasgavelin.bluetooth.BluetoothConnection;
 import se.nicklasgavelin.bluetooth.BluetoothDevice;
 import se.nicklasgavelin.configuration.ProjectProperties;

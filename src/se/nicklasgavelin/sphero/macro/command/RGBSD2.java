@@ -1,6 +1,7 @@
 package se.nicklasgavelin.sphero.macro.command;
 
 import java.awt.Color;
+
 import se.nicklasgavelin.sphero.macro.MacroCommand;
 import se.nicklasgavelin.util.ByteArrayBuffer;
 import se.nicklasgavelin.util.Value;

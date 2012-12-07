@@ -10,7 +10,7 @@ import javax.activation.CommandObject;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-import experimental.sphero.macro.Rotate;
+
 import se.nicklasgavelin.bluetooth.Bluetooth;
 import se.nicklasgavelin.bluetooth.Bluetooth.EVENT;
 import se.nicklasgavelin.bluetooth.BluetoothDevice;
