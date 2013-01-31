@@ -1,0 +1,5 @@
+\begin{document}
+What this project resulted in a program where we could use one Sphero ball to control the movement of the other ball. The setup where two computers, each one connected to a Sphero ball. One computer acted as a host while the other one was the receiver, connected through the ServerSocket protocol. Holding the ball in your hand, and tilting it, would lead to an equivalent movement from the other ball. If you tilted the ball in your hand forward, the other ball would roll forward. If you would tilt your hand to the right, to other ball would start rolling to it’s right.\bigskip
+
+With this we were able to drive a ball through a maze, by just intuitively tilt the other ball in your hand. We also made it so it would react on how much you tilted the ball, by increasing in speed depending on how much you would tilt it, which made it easy to slow down and drive around in tight mazes.
+\end{document}

@@ -1,0 +1,85 @@
+\documentclass{article}
+	\usepackage[protrusion=true,expansion=true]{microtype}
+	\usepackage{minion}
+	\usepackage{multicol}
+	
+\author{William Gustafsson}
+\title{The \TeX\ Book}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+	\section{multicol}
+
+		\begin{multicols}{3}    % 3 columns
+		   If you are using a standard Latex document class,
+		   then you can simply pass the optional argument twocolumn
+		   to the document class: \documentclass[twocolumn]{article}
+		   which will give the desired effect.
+		\end{multicols}
+		
+	%	alt
+		
+		\begin{minipage}[t]{0.49\columnwidth}%
+			% your text here
+		\end{minipage}%
+		\begin{minipage}[t]{0.49\columnwidth}%
+			% your image here
+		\end{minipage}
+		
+
+	\subsection{some special cases}
+
+		\begin{center} ... \end{center}
+
+			\begin{quote} ... \end{quote}
+
+			\begin{itemize}
+			\item This is the first item
+			\item This is the second item
+			\item This is the last itme
+			\end{itemize}
+
+			\begin{equation} ...this on is numbered \end{equation}
+			
+				\[
+				a^2 + b^2 = c^2
+				\] what does this do?
+				
+				"$a^2+b^2=c^2$" and this one is inline
+				
+			\begin{align} ... \end{align}
+
+
+	\section{Commenting}
+
+		%this is a comment
+	
+	\section{Multiple files}
+	
+		    \documentstyle{...}
+			...
+			\begin{document}
+			\include{firstfile}
+			\include{secondfile}
+			...
+			\include{lastfile}
+			\end{document}
+
+		Again, LaTeX looks for firstfile.tex, and so on. Now, however, each included file gets its own .aux file. This is very important, because you can then do the following:
+
+			\documentstyle{...}
+			...
+			\includeonly{secondfile}
+			...
+			\begin{document}
+			\include{firstfile}
+			\include{secondfile}
+			...
+			\input{firstfile}
+			\input{secondfile}
+			\end{document}
+
+
+\end{document}

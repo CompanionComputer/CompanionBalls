@@ -1,0 +1,10 @@
+\begin{document}
+Goal of this project:
+Create a pervasive system in which after connecting two sphero balls to two different computers, they will mimic each other. For example, if you roll one ball away, the other one would start rolling as well.\bigskip
+
+What we actually made, we are now able to control the movement of one ball using the other ball as a control. Using the intuitive controlling system of tilting one of the balls at the direction in which you want to go, and depending how much you tilt it you control how fast you want to go. \bigskip
+
+Possible follow ups would be to make the system a bit more robust and also to fix the user interface to be easier with, other words, less buttons. \bigskip
+
+This project aimed to be pervasive. We can conclude that we did not fulfill this requirement very well now that we have two computers as well as two Sphero balls. We also need to know the IP of each other for the serversocket to work. But just controlling the balls is very intuitive and even kids were able to understand and control the ball after a brief explanation. And once the setup is done, connecting the balls, and you have hidden the computers.
+\end{document}

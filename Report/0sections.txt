@@ -1,0 +1,13 @@
+– Abstract; Kurzfassung, Abstract
+– Introduction; Einleitung
+– Related Work; Verwandte Arbeiten
+– Basic concepts, Concepts and Terms; Grundbegriffe,
+Grundkonzepte und Definitionen
+– Experimental setup, Applied Method; Versuchsaufbau,
+Vorgangsweise
+– Results; (Experimentielle) Ergebnisse
+– Discussion, Proof; Diskussion, Beweis
+– Conclusion (and Outlook), Summary; Schlussfolgerungen,
+Fazit; Zusammenfassung (und Ausblick)
+– References; Literaturverzeichnis
+

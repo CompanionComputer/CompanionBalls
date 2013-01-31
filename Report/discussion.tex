@@ -1,0 +1,7 @@
+
+Our initial goal of mimicking the movement of another Sphero soon went to the bin as soon as we started working on it. This would involve way too much time in movement recognition and also the attributes of the sphero made it hard since there was no way to make the ball roll freely.
+
+Our second thought of controlling the ball turned out as a better way of doing it. Using data from the gyro of the controlling ball, applying math to calculate the heading and speed whereafter sending this data through a serversocket to the client which in turn controls the slave ball through the commands given.
+
+Right now the ball wobbles a bit and the turns are a bit delayed, this could probably be solved by adjusting how many samples per second we take from the controller and adjustments to the heading calculations to be more robust.
+
